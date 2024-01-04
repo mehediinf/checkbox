@@ -16,6 +16,7 @@
         android:textStyle="bold"
          />
     <CheckBox
+        android:id="@+id/checkboxSuagr_Id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/suagr_Text"
@@ -23,6 +24,7 @@
         android:textSize="20sp"
         />
     <CheckBox
+        android:id="@+id/checkboxMilk_Id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/milk_Text"
@@ -30,6 +32,7 @@
         android:textSize="20sp"
         />
     <CheckBox
+        android:id="@+id/checkboxWater_Id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/water_Text"
@@ -38,6 +41,7 @@
         />
 
     <Button
+        android:id="@+id/showButton_Id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/buttonText"
@@ -46,10 +50,11 @@
         android:layout_marginTop="20dp"
         />
     <TextView
+        android:id="@+id/resultTextView_Id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20sp"
-        android:layout_margin="20dp"
+        android:layout_marginTop="20dp"
 
         />
 
